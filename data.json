@@ -3,7 +3,7 @@
   "cards": [
     {
       "name": "154 Aughton Road, Sheffield",
-      "stage": "Cursor",
+      "stage": "Josh",
       "outcome": "Open",
       "quote": 13572.63,
       "due": null,
@@ -432,5 +432,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "18 Aug 2026 19:48 BST"
+  "generated": "18 Aug 2026 20:40 BST"
 }
