@@ -2,96 +2,435 @@
   "board": "Walker Tenders",
   "cards": [
     {
-      "id": "6a8389dd87dcdb24a62d4039",
-      "name": "29 Carroll Street, Market Harborough",
-      "idList": "6a7ee40f465a90cd89a8bf22",
-      "listName": "Josh",
-      "due": "2026-08-28T11:00:00.000Z",
-      "url": "https://trello.com/c/xWZ6ursN/6-29-carroll-street-market-harborough",
-      "outcome": "Open",
-      "quote": 156606.02,
-      "client": ""
-    },
-    {
-      "id": "6a7ee59d7011564f8fe73fea",
-      "name": "31 Pastons Risings, Peterborough",
-      "idList": "6a7ee40f465a90cd89a8bf22",
-      "listName": "Josh",
-      "due": "2026-08-26T12:00:00.000Z",
-      "url": "https://trello.com/c/Mzgj6ggt/2-31-pastons-risings-peterborough",
-      "outcome": "Open",
-      "quote": 41006.87,
-      "client": ""
-    },
-    {
-      "id": "6a83706421e46f1bb81b3bf1",
       "name": "154 Aughton Road, Sheffield",
-      "idList": "6a7ee40f465a90cd89a8bf22",
-      "listName": "Josh",
-      "due": null,
-      "url": "https://trello.com/c/3ufrl5sM/4-154-aughton-road-sheffield",
+      "stage": "Cursor",
       "outcome": "Open",
       "quote": 13572.63,
-      "client": ""
+      "due": null,
+      "client": "",
+      "url": "https://trello.com/c/3ufrl5sM/4-154-aughton-road-sheffield",
+      "kind": "live"
     },
     {
-      "id": "6a8354c3f6d8cfd4d183e168",
-      "name": "5 St Annes Close, Bicester",
-      "idList": "6a7ee40f465a90cd89a8bf22",
-      "listName": "Josh",
-      "due": "2026-08-21T10:00:00.000Z",
-      "url": "https://trello.com/c/e5wQ8ejt/3-5-st-annes-close-bicester",
+      "name": "29 Carroll Street, Market Harborough",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": 141889.04,
-      "client": ""
+      "quote": 156606.02,
+      "due": "2026-08-28T11:00:00.000Z",
+      "client": "",
+      "url": "https://trello.com/c/xWZ6ursN/6-29-carroll-street-market-harborough",
+      "kind": "live"
     },
     {
-      "id": "6a837369bfc515d294bfe407",
-      "name": "Argyle Parade, Oldham",
-      "idList": "6a7ee40f465a90cd89a8bf22",
-      "listName": "Josh",
-      "due": "2026-08-19T11:00:00.000Z",
-      "url": "https://trello.com/c/aFPp6f9S/5-argyle-parade-oldham",
+      "name": "31 Pastons Risings, Peterborough",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": 21963.2,
-      "client": ""
+      "quote": 41006.87,
+      "due": "2026-08-26T12:00:00.000Z",
+      "client": "",
+      "url": "https://trello.com/c/Mzgj6ggt/2-31-pastons-risings-peterborough",
+      "kind": "live"
     },
     {
-      "id": "6a838a43d3e77ad7f13c4c72",
       "name": "31 Valley Grove, Barnsley",
-      "idList": "6a7ee40f465a90cd89a8bf22",
-      "listName": "Josh",
-      "due": "2026-09-08T13:00:00.000Z",
-      "url": "https://trello.com/c/rOwXVcYZ/7-31-valley-grove-barnsley",
+      "stage": "Josh",
       "outcome": "Open",
       "quote": 76734.61,
-      "client": ""
+      "due": "2026-09-08T13:00:00.000Z",
+      "client": "Sedgwick CSD / Page & Sellors",
+      "url": "https://trello.com/c/rOwXVcYZ/7-31-valley-grove-barnsley",
+      "kind": "live"
+    },
+    {
+      "name": "5 St Annes Close, Bicester",
+      "stage": "Josh",
+      "outcome": "Open",
+      "quote": 141889.04,
+      "due": "2026-08-21T10:00:00.000Z",
+      "client": "Sedgwick CSD / Alan Sanchez",
+      "url": "https://trello.com/c/e5wQ8ejt/3-5-st-annes-close-bicester",
+      "kind": "live"
+    },
+    {
+      "name": "Argyle Parade, Oldham",
+      "stage": "Josh",
+      "outcome": "Open",
+      "quote": 21963.2,
+      "due": "2026-08-19T11:00:00.000Z",
+      "client": "",
+      "url": "https://trello.com/c/aFPp6f9S/5-argyle-parade-oldham",
+      "kind": "live"
+    },
+    {
+      "name": "19 Trevenson Park, Pool, Redruth",
+      "stage": "Archive",
+      "outcome": "Open",
+      "quote": 28094.61,
+      "due": null,
+      "client": "NHBC Claims / Adam Young",
+      "url": "https://trello.com/c/bYIxk4LG/14-19-trevenson-park-pool-redruth",
+      "kind": "archive"
+    },
+    {
+      "name": "37 Westmorland Drive, Bracknell",
+      "stage": "Archive",
+      "outcome": "Open",
+      "quote": 136959.53,
+      "due": null,
+      "client": "Sedgwick International UK (Alan Sanchez) / PH Annie Clarke",
+      "url": "https://trello.com/c/ZadFQH8z/36-37-westmorland-drive-bracknell",
+      "kind": "archive"
+    },
+    {
+      "name": "50 Pigeon Cote Road, Leeds LS14 1EP",
+      "stage": "Archive",
+      "outcome": "Open",
+      "quote": 60038.94,
+      "due": null,
+      "client": "Sedgwick International UK MCL",
+      "url": "https://trello.com/c/3Vz1MovE/30-50-pigeon-cote-road-leeds-ls14-1ep",
+      "kind": "archive"
+    },
+    {
+      "name": "Heather Fold, Skelmanthorpe - Cost to Complete",
+      "stage": "Archive",
+      "outcome": "Open",
+      "quote": 664985.0,
+      "due": null,
+      "client": "Walker Homes Ltd (intercompany)",
+      "url": "https://trello.com/c/ltWS5zLq/31-heather-fold-skelmanthorpe-cost-to-complete",
+      "kind": "archive"
+    },
+    {
+      "name": "Northwest Tea Service Ltd, Unit 9\u201310 Brickfields, Liverpool",
+      "stage": "Archive",
+      "outcome": "Open",
+      "quote": 77338.69,
+      "due": null,
+      "client": "Northwest Tea Service Ltd",
+      "url": "https://trello.com/c/XIxcJaAh/29-northwest-tea-service-ltd-unit-9-10-brickfields-liverpool",
+      "kind": "archive"
+    },
+    {
+      "name": "Orchard Hill, Cragg Wood Drive, Leeds, LS19 6LG",
+      "stage": "Archive",
+      "outcome": "Open",
+      "quote": 154750.0,
+      "due": null,
+      "client": "Richard & Ruth Stenhouse",
+      "url": "https://trello.com/c/aYnHvlMi/11-orchard-hill-cragg-wood-drive-leeds-ls19-6lg",
+      "kind": "archive"
+    },
+    {
+      "name": "1 Home Farm Barns, Trevarno, Helston",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 243020.0,
+      "due": null,
+      "client": "Mr & Mrs Talbot / Sedgwick CTU (Coleman) / Intact",
+      "url": "https://trello.com/c/anhwfIKf/24-1-home-farm-barns-trevarno-helston",
+      "kind": "archive"
+    },
+    {
+      "name": "14 Cambridge Street, Scarborough, YO12 7ED",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 3200.0,
+      "due": null,
+      "client": "Sedgwick (CSD Leeds)",
+      "url": "https://trello.com/c/i2Pv232R/35-14-cambridge-street-scarborough-yo12-7ed",
+      "kind": "archive"
+    },
+    {
+      "name": "14 Carnation Way, Aylesbury",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 67753.15,
+      "due": null,
+      "client": "Paradigm Housing Group (Sedgwick CS&D)",
+      "url": "https://trello.com/c/JtfQjhIz/34-14-carnation-way-aylesbury",
+      "kind": "archive"
+    },
+    {
+      "name": "142-160 Yorke Drive, Newark NG24 2HL",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 3176.1,
+      "due": null,
+      "client": "Sedgwick International UK - CSD (Chris Peerless)",
+      "url": "https://trello.com/c/6cCgyned/37-142-160-yorke-drive-newark-ng24-2hl",
+      "kind": "archive"
+    },
+    {
+      "name": "20 Riddings, Allestree, Derby",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 181571.8,
+      "due": null,
+      "client": "Sedgwick CSD / Page & Sellors",
+      "url": "https://trello.com/c/YRGzIAOj/23-20-riddings-allestree-derby",
+      "kind": "archive"
+    },
+    {
+      "name": "25 Carlyle Road, Castleford WF10 3BA",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 330988.2,
+      "due": null,
+      "client": "Quadrassist / Gateley Smithers Purslow \u2014 Cameron Fletcher",
+      "url": "https://trello.com/c/GXdSZIfy/21-25-carlyle-road-castleford-wf10-3ba",
+      "kind": "archive"
+    },
+    {
+      "name": "3 Channing Court, Rochdale",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 63164.6,
+      "due": null,
+      "client": "The Guinness Partnership / Sedgwick CSD",
+      "url": "https://trello.com/c/MBelQI81/33-3-channing-court-rochdale",
+      "kind": "archive"
+    },
+    {
+      "name": "30 John Street, Worksop",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 261909.46,
+      "due": null,
+      "client": "Nottingham Community Housing Association (NCHA)",
+      "url": "https://trello.com/c/IB7iQY9c/28-30-john-street-worksop",
+      "kind": "archive"
+    },
+    {
+      "name": "31 & 32 St Michaels Court, Gray Road, Sunderland SR2 8JU",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 36204.81,
+      "due": null,
+      "client": "Citistead Limited / Sedgwick (Erika Kadissi, Glasgow)",
+      "url": "https://trello.com/c/jozKvtXG/25-31-32-st-michaels-court-gray-road-sunderland-sr2-8ju",
+      "kind": "archive"
+    },
+    {
+      "name": "Cornwall Spandrel Panel Remediation \u2014 37 properties",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 265257.0,
+      "due": null,
+      "client": "Cornwall Council (Cornwall Housing) \u2014 NHBC cash settlement",
+      "url": "https://trello.com/c/s1jipo0H/17-cornwall-spandrel-panel-remediation-37-properties",
+      "kind": "archive"
+    },
+    {
+      "name": "Cornwall Spandrel Panels \u2014 Addendum (Section C)",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 252416.0,
+      "due": null,
+      "client": "Cornwall Council (Cornwall Housing)",
+      "url": "https://trello.com/c/2DuR4Il8/26-cornwall-spandrel-panels-addendum-section-c",
+      "kind": "archive"
+    },
+    {
+      "name": "Liversedge Padel Club (former Adrenaline Trampoline Park), WF15 6JL",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 956586.0,
+      "due": null,
+      "client": "Your Hospitality Group (Chris Hayes) via Josh",
+      "url": "https://trello.com/c/tG1RPkj6/22-liversedge-padel-club-former-adrenaline-trampoline-park-wf15-6jl",
+      "kind": "archive"
+    },
+    {
+      "name": "The Padel Shed - First Floor Fire Partitions, Huddersfield",
+      "stage": "Archive",
+      "outcome": "Submitted",
+      "quote": 84597.03,
+      "due": null,
+      "client": "Walker Group Ltd",
+      "url": "https://trello.com/c/xPTmonhB/32-the-padel-shed-first-floor-fire-partitions-huddersfield",
+      "kind": "archive"
+    },
+    {
+      "name": "1&2 Barn Flat, Youlgrave, Bakewell",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 103646.0,
+      "due": null,
+      "client": "Sedgwick CSD / Page & Sellors",
+      "url": "https://trello.com/c/bKOda6Ll/16-12-barn-flat-youlgrave-bakewell",
+      "kind": "archive"
+    },
+    {
+      "name": "13 Petersgarth, Moorhead Lane, Shipley, BD18 4JL",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 124466.88,
+      "due": null,
+      "client": "Petersgarth Management Ltd / Sedgwick CSD",
+      "url": "https://trello.com/c/gCSpWxi1/27-13-petersgarth-moorhead-lane-shipley-bd18-4jl",
+      "kind": "archive"
+    },
+    {
+      "name": "162 Leeming Lane South, Mansfield Woodhouse",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 218281.0,
+      "due": null,
+      "client": "Sedgwick CSD / Page & Sellors",
+      "url": "https://trello.com/c/9I9qZb7o/13-162-leeming-lane-south-mansfield-woodhouse",
+      "kind": "archive"
+    },
+    {
+      "name": "20 Redwing Close, Crosland Moor, Huddersfield",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 36620.0,
+      "due": null,
+      "client": "Avant Homes (West Yorkshire)",
+      "url": "https://trello.com/c/gqocP8t3/6-20-redwing-close-crosland-moor-huddersfield",
+      "kind": "archive"
+    },
+    {
+      "name": "5 Channing Court, Rochdale OL16 5QG",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 144490.26,
+      "due": null,
+      "client": "The Guinness Partnership / Sedgwick CSD",
+      "url": "https://trello.com/c/FumJPWSe/15-5-channing-court-rochdale-ol16-5qg",
+      "kind": "archive"
+    },
+    {
+      "name": "54 & 58 Errington Street, Brotton",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 149558.0,
+      "due": null,
+      "client": "Sedgwick CSD / Page",
+      "url": "https://trello.com/c/EMlyivy0/9-54-58-errington-street-brotton",
+      "kind": "archive"
+    },
+    {
+      "name": "6 Mariners Close, Hull HU9 1QE",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 125169.01,
+      "due": null,
+      "client": "Sedgwick CSD - Michael Page / Michael Sellors",
+      "url": "https://trello.com/c/kLe8FHAw/8-6-mariners-close-hull-hu9-1qe",
+      "kind": "archive"
+    },
+    {
+      "name": "Aloft Hotel, 1 North John Street, Liverpool",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 408900.41,
+      "due": null,
+      "client": "Sedgwick CSD (Michael Sellors)",
+      "url": "https://trello.com/c/2s62MV5p/10-aloft-hotel-1-north-john-street-liverpool",
+      "kind": "archive"
+    },
+    {
+      "name": "32 Highfield Grove, Bristol",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 41724.0,
+      "due": null,
+      "client": "Sedgwick CSD / Martin Allen",
+      "url": "https://trello.com/c/Y1OqbGJI/20-32-highfield-grove-bristol",
+      "kind": "archive"
+    },
+    {
+      "name": "39 Brutton Way, Chard",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 94676.2,
+      "due": null,
+      "client": "Sedgwick CSD / Martin Allen",
+      "url": "https://trello.com/c/NOX21SIo/18-39-brutton-way-chard",
+      "kind": "archive"
+    },
+    {
+      "name": "7 Harleston Way, Gateshead",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 152789.0,
+      "due": null,
+      "client": "Sedgwick CTU / Miller",
+      "url": "https://trello.com/c/2WrLKvX1/4-7-harleston-way-gateshead",
+      "kind": "archive"
+    },
+    {
+      "name": "9 Alexandra Road, Mold",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 104467.0,
+      "due": null,
+      "client": "Peritus Surveying Group Ltd",
+      "url": "https://trello.com/c/4ul37lkn/5-9-alexandra-road-mold",
+      "kind": "archive"
+    },
+    {
+      "name": "Buck Crag, Grange-Over-Sands",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 139885.0,
+      "due": null,
+      "client": "Sedgwick CSD / Sellors",
+      "url": "https://trello.com/c/FmyrWGWJ/3-buck-crag-grange-over-sands",
+      "kind": "archive"
+    },
+    {
+      "name": "Wolham Farm, Spilsby",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 410000.0,
+      "due": null,
+      "client": "Sedgwick CTU / Lee",
+      "url": "https://trello.com/c/Hg3vfbA3/2-wolham-farm-spilsby",
+      "kind": "archive"
+    },
+    {
+      "name": "4 Monk Terrace, Barnsley",
+      "stage": "Archive",
+      "outcome": "Cashed",
+      "quote": 106945.0,
+      "due": null,
+      "client": "Peritus / Da Silva",
+      "url": "https://trello.com/c/nQVsU2JN/1-4-monk-terrace-barnsley",
+      "kind": "archive"
+    },
+    {
+      "name": "Bella Vista Hotel, Blackpool",
+      "stage": "Archive",
+      "outcome": "Cashed",
+      "quote": 143892.0,
+      "due": null,
+      "client": "Sedgwick CSD / Sellors",
+      "url": "https://trello.com/c/b5xw8yFC/12-bella-vista-hotel-blackpool",
+      "kind": "archive"
+    },
+    {
+      "name": "Flat A, 386 Allerton Place, Leeds LS17 6QY",
+      "stage": "Archive",
+      "outcome": "Cashed",
+      "quote": 8208.18,
+      "due": null,
+      "client": "Paddl Group / Sedgwick",
+      "url": "https://trello.com/c/29wDE8Kq/7-flat-a-386-allerton-place-leeds-ls17-6qy",
+      "kind": "archive"
+    },
+    {
+      "name": "13a & 13b Edmund Road, Mitcham",
+      "stage": "Archive",
+      "outcome": "Declined",
+      "quote": 271445.97,
+      "due": null,
+      "client": "Sedgwick CSD / Martin Allen for CSJ Plc / Mr John Braden",
+      "url": "https://trello.com/c/qSsSw9gB/19-13a-13b-edmund-road-mitcham",
+      "kind": "archive"
     }
   ],
-  "lists": [
-    {
-      "id": "6a84070e472701526bbb0e48",
-      "name": "Guide"
-    },
-    {
-      "id": "6a7ee40958f8dc7ff3012248",
-      "name": "Inbox"
-    },
-    {
-      "id": "6a7ee40fbf4eead2702337b6",
-      "name": "Cursor"
-    },
-    {
-      "id": "6a7ee40f465a90cd89a8bf22",
-      "name": "Josh"
-    },
-    {
-      "id": "6a7ee410320b2cd9f1f73fc9",
-      "name": "Chris"
-    },
-    {
-      "id": "6a7ee410758380ffe0ea7451",
-      "name": "Submitted"
-    }
-  ]
+  "generated": "18 Aug 2026 19:48 BST"
 }
