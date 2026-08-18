@@ -55,64 +55,67 @@ function chip(label, value) {
   return '<div class="chip"><b>' + value + "</b><span>" + label + "</span></div>";
 }
 
+function loadCards() {
+  return t
+    .cards("id", "name", "idList", "due", "url", "labels", "shortUrl", "customFieldItems")
+    .catch(function () {
+      return t.cards("id", "name", "idList", "due", "url", "labels", "shortUrl");
+    });
+}
+
+function renderRows(board, lists, cards) {
+  var listName = {};
+  (lists || []).forEach(function (l) {
+    listName[l.id] = l.name;
+  });
+  var rows = (cards || []).filter(function (c) {
+    return !hideGuide(listName[c.idList], c.name);
+  });
+  var totals = { count: 0, quote: 0, byOutcome: {} };
+  var html = rows
+    .map(function (c) {
+      var map = fieldMap(c.customFieldItems);
+      var stage = listName[c.idList] || "";
+      var outcome = outcomeOf(map) || (stage === "Submitted" ? "Submitted" : "Open");
+      var quote = quoteOf(map);
+      var client = clientOf(map);
+      var due = parseDue(c.due);
+      totals.count += 1;
+      if (quote != null) totals.quote += Number(quote);
+      totals.byOutcome[outcome] = (totals.byOutcome[outcome] || 0) + 1;
+      return (
+        "<tr>" +
+        '<td><a href="' + (c.url || "#") + '" target="_blank" rel="noreferrer">' + c.name + "</a></td>" +
+        "<td>" + stage + "</td>" +
+        '<td class="out-' + outcome + '">' + outcome + "</td>" +
+        '<td class="num">' + money(quote) + "</td>" +
+        '<td class="' + due.cls + '">' + due.text + "</td>" +
+        "<td>" + (client || "—") + "</td>" +
+        "</tr>"
+      );
+    })
+    .join("");
+  document.getElementById("rows").innerHTML = html || '<tr><td colspan="6" class="empty">No live jobs on this board.</td></tr>';
+  document.getElementById("stamp").textContent = (board && board.name ? board.name : "Walker Tenders") + " · " + totals.count + " jobs";
+  var chips = [chip("Jobs", String(totals.count)), chip("Quoted", money(totals.quote))];
+  ["Open", "Submitted", "Won", "Lost", "Cashed", "Declined"].forEach(function (k) {
+    if (totals.byOutcome[k]) chips.push(chip(k, String(totals.byOutcome[k])));
+  });
+  document.getElementById("chips").innerHTML = chips.join("");
+}
+
 t.render(function () {
-  return Promise.all([
-    t.board("id", "name"),
-    t.lists("id", "name"),
-    t.cards("id", "name", "idList", "due", "url", "labels", "shortUrl", "customFieldItems"),
-  ])
+  return Promise.all([t.board("id", "name"), t.lists("id", "name"), loadCards()])
     .then(function (parts) {
-      var board = parts[0];
-      var lists = parts[1] || [];
-      var cards = parts[2] || [];
-      var listName = {};
-      lists.forEach(function (l) {
-        listName[l.id] = l.name;
-      });
-
-      var rows = cards.filter(function (c) {
-        return !hideGuide(listName[c.idList], c.name);
-      });
-
-      var totals = { count: 0, quote: 0, byOutcome: {}, byStage: {} };
-      var html = rows
-        .map(function (c) {
-          var map = fieldMap(c.customFieldItems);
-          var stage = listName[c.idList] || "";
-          var outcome = outcomeOf(map) || (stage === "Submitted" ? "Submitted" : "Open");
-          var quote = quoteOf(map);
-          var client = clientOf(map);
-          var due = parseDue(c.due);
-          totals.count += 1;
-          if (quote != null) totals.quote += Number(quote);
-          totals.byOutcome[outcome] = (totals.byOutcome[outcome] || 0) + 1;
-          totals.byStage[stage] = (totals.byStage[stage] || 0) + 1;
-          return (
-            "<tr>" +
-            '<td><a href="' + (c.url || "#") + '" target="_blank" rel="noreferrer">' + c.name + "</a></td>" +
-            "<td>" + stage + "</td>" +
-            '<td class="out-' + outcome + '">' + outcome + "</td>" +
-            '<td class="num">' + money(quote) + "</td>" +
-            '<td class="' + due.cls + '">' + due.text + "</td>" +
-            "<td>" + (client || "—") + "</td>" +
-            "</tr>"
-          );
-        })
-        .join("");
-
-      document.getElementById("rows").innerHTML = html || '<tr><td colspan="6" class="empty">No live jobs on this board.</td></tr>';
-      document.getElementById("stamp").textContent = board.name + " · " + totals.count + " jobs";
-      var chips = [chip("Jobs", String(totals.count)), chip("Quoted", money(totals.quote))];
-      ["Open", "Submitted", "Won", "Lost", "Cashed", "Declined"].forEach(function (k) {
-        if (totals.byOutcome[k]) chips.push(chip(k, String(totals.byOutcome[k])));
-      });
-      document.getElementById("chips").innerHTML = chips.join("");
+      renderRows(parts[0], parts[1], parts[2]);
       return t.sizeTo("body");
     })
     .catch(function (err) {
+      var msg = (err && (err.message || err.error || String(err))) || "unknown error";
       document.getElementById("stamp").textContent = "Could not read the board";
       document.getElementById("rows").innerHTML =
-        '<tr><td colspan="6" class="empty error">Trello did not share the board with this view. Enable Walker Pricing on the board, then open Pricing again.</td></tr>';
-      console.error(err);
+        '<tr><td colspan="6" class="empty error">Trello did not share this board with the view (' +
+        msg.replace(/[<>]/g, "") +
+        "). Close this and click Pricing again.</td></tr>";
     });
 });

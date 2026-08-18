@@ -1,16 +1,17 @@
 /* global TrelloPowerUp */
+var HOST = "https://chr155-ai.github.io/walker-tenders-powerup";
 TrelloPowerUp.initialize({
   "board-buttons": function (t) {
     return [
       {
         text: "Pricing",
         icon: {
-          dark: "./icon-dark.png",
-          light: "./icon-light.png",
+          dark: HOST + "/icon-dark.png",
+          light: HOST + "/icon-light.png",
         },
         callback: function (t) {
           return t.modal({
-            url: "./dashboard.html",
+            url: HOST + "/dashboard.html?v=2",
             fullscreen: true,
             title: "Walker Pricing",
           });
