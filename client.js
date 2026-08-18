@@ -11,7 +11,7 @@ TrelloPowerUp.initialize({
         },
         callback: function (t) {
           return t.modal({
-            url: HOST + "/dashboard.html?v=2",
+            url: HOST + "/dashboard.html?v=3",
             fullscreen: true,
             title: "Walker Pricing",
           });

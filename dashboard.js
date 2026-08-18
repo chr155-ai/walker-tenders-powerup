@@ -55,30 +55,23 @@ function chip(label, value) {
   return '<div class="chip"><b>' + value + "</b><span>" + label + "</span></div>";
 }
 
-function loadCards() {
-  return t
-    .cards("id", "name", "idList", "due", "url", "labels", "shortUrl", "customFieldItems")
-    .catch(function () {
-      return t.cards("id", "name", "idList", "due", "url", "labels", "shortUrl");
-    });
-}
-
-function renderRows(board, lists, cards) {
+function draw(boardName, lists, cards, source) {
   var listName = {};
   (lists || []).forEach(function (l) {
-    listName[l.id] = l.name;
+    listName[l.id] = l.name || l.listName;
   });
   var rows = (cards || []).filter(function (c) {
-    return !hideGuide(listName[c.idList], c.name);
+    var stage = listName[c.idList] || c.listName || "";
+    return !hideGuide(stage, c.name);
   });
   var totals = { count: 0, quote: 0, byOutcome: {} };
   var html = rows
     .map(function (c) {
       var map = fieldMap(c.customFieldItems);
-      var stage = listName[c.idList] || "";
-      var outcome = outcomeOf(map) || (stage === "Submitted" ? "Submitted" : "Open");
-      var quote = quoteOf(map);
-      var client = clientOf(map);
+      var stage = listName[c.idList] || c.listName || "";
+      var outcome = c.outcome || outcomeOf(map) || (stage === "Submitted" ? "Submitted" : "Open");
+      var quote = c.quote != null ? c.quote : quoteOf(map);
+      var client = c.client || clientOf(map);
       var due = parseDue(c.due);
       totals.count += 1;
       if (quote != null) totals.quote += Number(quote);
@@ -96,7 +89,7 @@ function renderRows(board, lists, cards) {
     })
     .join("");
   document.getElementById("rows").innerHTML = html || '<tr><td colspan="6" class="empty">No live jobs on this board.</td></tr>';
-  document.getElementById("stamp").textContent = (board && board.name ? board.name : "Walker Tenders") + " · " + totals.count + " jobs";
+  document.getElementById("stamp").textContent = boardName + " · " + totals.count + " jobs" + (source ? " · " + source : "");
   var chips = [chip("Jobs", String(totals.count)), chip("Quoted", money(totals.quote))];
   ["Open", "Submitted", "Won", "Lost", "Cashed", "Declined"].forEach(function (k) {
     if (totals.byOutcome[k]) chips.push(chip(k, String(totals.byOutcome[k])));
@@ -104,18 +97,57 @@ function renderRows(board, lists, cards) {
   document.getElementById("chips").innerHTML = chips.join("");
 }
 
-t.render(function () {
-  return Promise.all([t.board("id", "name"), t.lists("id", "name"), loadCards()])
-    .then(function (parts) {
-      renderRows(parts[0], parts[1], parts[2]);
-      return t.sizeTo("body");
+function snapshot() {
+  return fetch("./data.json?v=3")
+    .then(function (r) {
+      if (!r.ok) throw new Error("snapshot " + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      draw(data.board || "Walker Tenders", data.lists || [], data.cards || [], "snapshot");
+    });
+}
+
+function live() {
+  return Promise.all([
+    t.board("id", "name"),
+    t.lists("id", "name"),
+    t.cards("id", "name", "idList", "due", "url", "shortUrl"),
+  ]).then(function (parts) {
+    draw((parts[0] && parts[0].name) || "Walker Tenders", parts[1], parts[2], "live");
+    return t
+      .cards("id", "name", "idList", "due", "url", "shortUrl", "customFieldItems")
+      .then(function (cards) {
+        draw((parts[0] && parts[0].name) || "Walker Tenders", parts[1], cards, "live");
+      })
+      .catch(function () {
+        return null;
+      });
+  });
+}
+
+function go() {
+  return live()
+    .catch(function () {
+      return snapshot();
+    })
+    .then(function () {
+      return t.sizeTo("body").catch(function () {
+        return null;
+      });
     })
     .catch(function (err) {
-      var msg = (err && (err.message || err.error || String(err))) || "unknown error";
+      var msg = (err && (err.message || String(err))) || "unknown error";
       document.getElementById("stamp").textContent = "Could not read the board";
       document.getElementById("rows").innerHTML =
-        '<tr><td colspan="6" class="empty error">Trello did not share this board with the view (' +
-        msg.replace(/[<>]/g, "") +
-        "). Close this and click Pricing again.</td></tr>";
+        '<tr><td colspan="6" class="empty error">Could not load jobs (' +
+        String(msg).replace(/[<>]/g, "") +
+        ").</td></tr>";
     });
-});
+}
+
+if (t.render) {
+  t.render(go);
+} else {
+  go();
+}
