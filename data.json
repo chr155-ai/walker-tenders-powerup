@@ -92,16 +92,6 @@
       "kind": "archive"
     },
     {
-      "name": "Heather Fold, Skelmanthorpe - Cost to Complete",
-      "stage": "Archive",
-      "outcome": "Open",
-      "quote": 664985.0,
-      "due": null,
-      "client": "Walker Homes Ltd (intercompany)",
-      "url": "https://trello.com/c/ltWS5zLq/31-heather-fold-skelmanthorpe-cost-to-complete",
-      "kind": "archive"
-    },
-    {
       "name": "Northwest Tea Service Ltd, Unit 9\u201310 Brickfields, Liverpool",
       "stage": "Archive",
       "outcome": "Open",
@@ -109,16 +99,6 @@
       "due": null,
       "client": "Northwest Tea Service Ltd",
       "url": "https://trello.com/c/XIxcJaAh/29-northwest-tea-service-ltd-unit-9-10-brickfields-liverpool",
-      "kind": "archive"
-    },
-    {
-      "name": "Orchard Hill, Cragg Wood Drive, Leeds, LS19 6LG",
-      "stage": "Archive",
-      "outcome": "Open",
-      "quote": 154750.0,
-      "due": null,
-      "client": "Richard & Ruth Stenhouse",
-      "url": "https://trello.com/c/aYnHvlMi/11-orchard-hill-cragg-wood-drive-leeds-ls19-6lg",
       "kind": "archive"
     },
     {
@@ -162,26 +142,6 @@
       "kind": "archive"
     },
     {
-      "name": "20 Riddings, Allestree, Derby",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 181571.8,
-      "due": null,
-      "client": "Sedgwick CSD / Page & Sellors",
-      "url": "https://trello.com/c/YRGzIAOj/23-20-riddings-allestree-derby",
-      "kind": "archive"
-    },
-    {
-      "name": "25 Carlyle Road, Castleford WF10 3BA",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 330988.2,
-      "due": null,
-      "client": "Quadrassist / Gateley Smithers Purslow \u2014 Cameron Fletcher",
-      "url": "https://trello.com/c/GXdSZIfy/21-25-carlyle-road-castleford-wf10-3ba",
-      "kind": "archive"
-    },
-    {
       "name": "3 Channing Court, Rochdale",
       "stage": "Archive",
       "outcome": "Submitted",
@@ -199,16 +159,6 @@
       "due": null,
       "client": "Nottingham Community Housing Association (NCHA)",
       "url": "https://trello.com/c/IB7iQY9c/28-30-john-street-worksop",
-      "kind": "archive"
-    },
-    {
-      "name": "31 & 32 St Michaels Court, Gray Road, Sunderland SR2 8JU",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 36204.81,
-      "due": null,
-      "client": "Citistead Limited / Sedgwick (Erika Kadissi, Glasgow)",
-      "url": "https://trello.com/c/jozKvtXG/25-31-32-st-michaels-court-gray-road-sunderland-sr2-8ju",
       "kind": "archive"
     },
     {
@@ -292,6 +242,26 @@
       "kind": "archive"
     },
     {
+      "name": "20 Riddings, Allestree, Derby",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 181571.8,
+      "due": null,
+      "client": "Sedgwick CSD / Page & Sellors",
+      "url": "https://trello.com/c/YRGzIAOj/23-20-riddings-allestree-derby",
+      "kind": "archive"
+    },
+    {
+      "name": "31 & 32 St Michaels Court, Gray Road, Sunderland SR2 8JU",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 36204.81,
+      "due": null,
+      "client": "Citistead Limited / Sedgwick (Erika Kadissi, Glasgow)",
+      "url": "https://trello.com/c/jozKvtXG/25-31-32-st-michaels-court-gray-road-sunderland-sr2-8ju",
+      "kind": "archive"
+    },
+    {
       "name": "5 Channing Court, Rochdale OL16 5QG",
       "stage": "Archive",
       "outcome": "Won",
@@ -329,6 +299,26 @@
       "due": null,
       "client": "Sedgwick CSD (Michael Sellors)",
       "url": "https://trello.com/c/2s62MV5p/10-aloft-hotel-1-north-john-street-liverpool",
+      "kind": "archive"
+    },
+    {
+      "name": "Heather Fold, Skelmanthorpe - Cost to Complete",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 664985.0,
+      "due": null,
+      "client": "Walker Homes Ltd (intercompany)",
+      "url": "https://trello.com/c/ltWS5zLq/31-heather-fold-skelmanthorpe-cost-to-complete",
+      "kind": "archive"
+    },
+    {
+      "name": "25 Carlyle Road, Castleford WF10 3BA",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 330988.2,
+      "due": null,
+      "client": "Quadrassist / Gateley Smithers Purslow \u2014 Cameron Fletcher",
+      "url": "https://trello.com/c/GXdSZIfy/21-25-carlyle-road-castleford-wf10-3ba",
       "kind": "archive"
     },
     {
@@ -430,7 +420,17 @@
       "client": "Sedgwick CSD / Martin Allen for CSJ Plc / Mr John Braden",
       "url": "https://trello.com/c/qSsSw9gB/19-13a-13b-edmund-road-mitcham",
       "kind": "archive"
+    },
+    {
+      "name": "Orchard Hill, Cragg Wood Drive, Leeds, LS19 6LG",
+      "stage": "Archive",
+      "outcome": "Declined",
+      "quote": 154750.0,
+      "due": null,
+      "client": "Richard & Ruth Stenhouse",
+      "url": "https://trello.com/c/aYnHvlMi/11-orchard-hill-cragg-wood-drive-leeds-ls19-6lg",
+      "kind": "archive"
     }
   ],
-  "generated": "18 Aug 2026 20:40 BST"
+  "generated": "18 Aug 2026 20:50 BST"
 }
