@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Walker Pricing</title>
+    <link rel="stylesheet" href="./dashboard.css" />
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div>
+          <p class="kicker">Walker Tenders</p>
+          <h1>Pricing</h1>
+        </div>
+        <p class="stamp" id="stamp">Loading board…</p>
+      </header>
+      <section class="chips" id="chips"></section>
+      <table>
+        <thead>
+          <tr>
+            <th>Job</th>
+            <th>Stage</th>
+            <th>Outcome</th>
+            <th class="num">Quote</th>
+            <th>Due</th>
+            <th>Client</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <tr><td colspan="6" class="empty">Reading the board…</td></tr>
+        </tbody>
+      </table>
+      <p class="note">
+        Outcome and quote live on each card. Change them there. This view reads the board you already have open.
+      </p>
+    </div>
+    <script src="./fields.js"></script>
+    <script src="./dashboard.js"></script>
+  </body>
+</html>
