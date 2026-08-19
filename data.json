@@ -3,7 +3,7 @@
   "cards": [
     {
       "name": "154 Aughton Road, Sheffield",
-      "stage": "Chris",
+      "stage": "Ready for submission",
       "outcome": "Open",
       "quote": 19998.0,
       "due": null,
@@ -432,5 +432,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "19 Aug 2026 10:17 BST"
+  "generated": "19 Aug 2026 11:15 BST"
 }
