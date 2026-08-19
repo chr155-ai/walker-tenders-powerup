@@ -3,9 +3,9 @@
   "cards": [
     {
       "name": "154 Aughton Road, Sheffield",
-      "stage": "Cursor",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": 19998.0,
+      "quote": 19791.21,
       "due": null,
       "client": "",
       "url": "https://trello.com/c/3ufrl5sM/4-154-aughton-road-sheffield",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Argyle Parade, Oldham",
-      "stage": "Ready for submission",
+      "stage": "Submitted",
       "outcome": "Open",
       "quote": 21963.0,
       "due": "2026-08-19T11:00:00.000Z",
@@ -432,5 +432,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "19 Aug 2026 12:57 BST"
+  "generated": "19 Aug 2026 13:19 BST"
 }
