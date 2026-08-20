@@ -23,7 +23,7 @@
     },
     {
       "name": "31 Pastons Risings, Peterborough",
-      "stage": "Chris",
+      "stage": "Ready for submission",
       "outcome": "Open",
       "quote": 41006.87,
       "due": "2026-08-26T12:00:00.000Z",
@@ -53,9 +53,9 @@
     },
     {
       "name": "80 Sandhall Green, Halifax",
-      "stage": "Chris",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": 116314.07,
+      "quote": 109137.84,
       "due": "2026-08-24T11:00:00.000Z",
       "client": "Together Housing / Sedgwick",
       "url": "https://trello.com/c/WItIySVe/47-80-sandhall-green-halifax",
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "20 Aug 2026 16:18 BST"
+  "generated": "20 Aug 2026 17:18 BST"
 }
