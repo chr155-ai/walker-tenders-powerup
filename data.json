@@ -43,7 +43,7 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Josh",
+      "stage": "Cursor",
       "outcome": "Open",
       "quote": 141889.04,
       "due": "2026-08-21T10:00:00.000Z",
@@ -152,16 +152,6 @@
       "kind": "archive"
     },
     {
-      "name": "3 Channing Court, Rochdale",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 63164.6,
-      "due": null,
-      "client": "The Guinness Partnership / Sedgwick CSD",
-      "url": "https://trello.com/c/MBelQI81/33-3-channing-court-rochdale",
-      "kind": "archive"
-    },
-    {
       "name": "30 John Street, Worksop",
       "stage": "Archive",
       "outcome": "Submitted",
@@ -259,6 +249,16 @@
       "due": null,
       "client": "Sedgwick CSD / Page & Sellors",
       "url": "https://trello.com/c/YRGzIAOj/23-20-riddings-allestree-derby",
+      "kind": "archive"
+    },
+    {
+      "name": "3 Channing Court, Rochdale",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 63164.6,
+      "due": null,
+      "client": "The Guinness Partnership / Sedgwick CSD",
+      "url": "https://trello.com/c/MBelQI81/33-3-channing-court-rochdale",
       "kind": "archive"
     },
     {
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "20 Aug 2026 09:15 BST"
+  "generated": "20 Aug 2026 10:09 BST"
 }
