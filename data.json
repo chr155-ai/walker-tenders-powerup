@@ -43,7 +43,7 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Cursor",
+      "stage": "Chris",
       "outcome": "Open",
       "quote": 86208.17,
       "due": "2026-08-21T10:00:00.000Z",
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "20 Aug 2026 11:14 BST"
+  "generated": "20 Aug 2026 12:15 BST"
 }
