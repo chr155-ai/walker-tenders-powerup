@@ -43,7 +43,7 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Josh",
+      "stage": "Ready for submission",
       "outcome": "Open",
       "quote": 80353.9,
       "due": "2026-08-21T10:00:00.000Z",
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "20 Aug 2026 13:15 BST"
+  "generated": "20 Aug 2026 14:14 BST"
 }
