@@ -43,9 +43,9 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Chris",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": 86208.17,
+      "quote": 80353.9,
       "due": "2026-08-21T10:00:00.000Z",
       "client": "Sedgwick CSD / Alan Sanchez",
       "url": "https://trello.com/c/e5wQ8ejt/3-5-st-annes-close-bicester",
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "20 Aug 2026 12:15 BST"
+  "generated": "20 Aug 2026 13:15 BST"
 }
