@@ -43,8 +43,8 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Ready for submission",
-      "outcome": "Open",
+      "stage": "Submitted",
+      "outcome": "Submitted",
       "quote": 80353.9,
       "due": "2026-08-21T10:00:00.000Z",
       "client": "Sedgwick CSD / Alan Sanchez",
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "20 Aug 2026 14:14 BST"
+  "generated": "20 Aug 2026 15:18 BST"
 }
