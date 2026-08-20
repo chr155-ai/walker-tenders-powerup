@@ -53,11 +53,11 @@
     },
     {
       "name": "80 Sandhall Green, Halifax",
-      "stage": "Inbox",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": null,
+      "quote": 116314.07,
       "due": "2026-08-24T11:00:00.000Z",
-      "client": "",
+      "client": "Together Housing / Sedgwick",
       "url": "https://trello.com/c/WItIySVe/47-80-sandhall-green-halifax",
       "kind": "live"
     },
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "19 Aug 2026 17:17 BST"
+  "generated": "20 Aug 2026 09:15 BST"
 }
