@@ -42,6 +42,16 @@
       "kind": "live"
     },
     {
+      "name": "37 Westmorland Drive, Bracknell",
+      "stage": "Josh",
+      "outcome": "Open",
+      "quote": 136959.53,
+      "due": null,
+      "client": "Sedgwick International UK (Alan Sanchez) / PH Annie Clarke",
+      "url": "https://trello.com/c/ZadFQH8z/48-37-westmorland-drive-bracknell",
+      "kind": "live"
+    },
+    {
       "name": "5 St Annes Close, Bicester",
       "stage": "Submitted",
       "outcome": "Submitted",
@@ -79,16 +89,6 @@
       "due": null,
       "client": "NHBC Claims / Adam Young",
       "url": "https://trello.com/c/bYIxk4LG/14-19-trevenson-park-pool-redruth",
-      "kind": "archive"
-    },
-    {
-      "name": "37 Westmorland Drive, Bracknell",
-      "stage": "Archive",
-      "outcome": "Open",
-      "quote": 136959.53,
-      "due": null,
-      "client": "Sedgwick International UK (Alan Sanchez) / PH Annie Clarke",
-      "url": "https://trello.com/c/ZadFQH8z/36-37-westmorland-drive-bracknell",
       "kind": "archive"
     },
     {
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "21 Aug 2026 09:17 BST"
+  "generated": "21 Aug 2026 10:18 BST"
 }
