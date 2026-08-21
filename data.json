@@ -43,8 +43,8 @@
     },
     {
       "name": "37 Westmorland Drive, Bracknell",
-      "stage": "Josh",
-      "outcome": "Open",
+      "stage": "Submitted",
+      "outcome": "Submitted",
       "quote": 136959.53,
       "due": null,
       "client": "Sedgwick International UK (Alan Sanchez) / PH Annie Clarke",
@@ -63,8 +63,8 @@
     },
     {
       "name": "80 Sandhall Green, Halifax",
-      "stage": "Ready for submission",
-      "outcome": "Open",
+      "stage": "Submitted",
+      "outcome": "Submitted",
       "quote": 109137.84,
       "due": "2026-08-24T11:00:00.000Z",
       "client": "Together Housing / Sedgwick",
@@ -442,5 +442,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "21 Aug 2026 10:18 BST"
+  "generated": "21 Aug 2026 12:17 BST"
 }
