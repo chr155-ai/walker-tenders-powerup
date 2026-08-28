@@ -102,26 +102,6 @@
       "kind": "archive"
     },
     {
-      "name": "50 Pigeon Cote Road, Leeds LS14 1EP",
-      "stage": "Archive",
-      "outcome": "Open",
-      "quote": 60038.94,
-      "due": null,
-      "client": "Sedgwick International UK MCL",
-      "url": "https://trello.com/c/3Vz1MovE/30-50-pigeon-cote-road-leeds-ls14-1ep",
-      "kind": "archive"
-    },
-    {
-      "name": "Northwest Tea Service Ltd, Unit 9\u201310 Brickfields, Liverpool",
-      "stage": "Archive",
-      "outcome": "Open",
-      "quote": 77338.69,
-      "due": null,
-      "client": "Northwest Tea Service Ltd",
-      "url": "https://trello.com/c/XIxcJaAh/29-northwest-tea-service-ltd-unit-9-10-brickfields-liverpool",
-      "kind": "archive"
-    },
-    {
       "name": "1 Home Farm Barns, Trevarno, Helston",
       "stage": "Archive",
       "outcome": "Submitted",
@@ -152,16 +132,6 @@
       "kind": "archive"
     },
     {
-      "name": "142-160 Yorke Drive, Newark NG24 2HL",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 3176.1,
-      "due": null,
-      "client": "Sedgwick International UK - CSD (Chris Peerless)",
-      "url": "https://trello.com/c/6cCgyned/37-142-160-yorke-drive-newark-ng24-2hl",
-      "kind": "archive"
-    },
-    {
       "name": "30 John Street, Worksop",
       "stage": "Archive",
       "outcome": "Submitted",
@@ -172,16 +142,6 @@
       "kind": "archive"
     },
     {
-      "name": "Cornwall Spandrel Panel Remediation \u2014 37 properties",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 265257.0,
-      "due": null,
-      "client": "Cornwall Council (Cornwall Housing) \u2014 NHBC cash settlement",
-      "url": "https://trello.com/c/s1jipo0H/17-cornwall-spandrel-panel-remediation-37-properties",
-      "kind": "archive"
-    },
-    {
       "name": "Cornwall Spandrel Panels \u2014 Addendum (Section C)",
       "stage": "Archive",
       "outcome": "Submitted",
@@ -189,16 +149,6 @@
       "due": null,
       "client": "Cornwall Council (Cornwall Housing)",
       "url": "https://trello.com/c/2DuR4Il8/26-cornwall-spandrel-panels-addendum-section-c",
-      "kind": "archive"
-    },
-    {
-      "name": "Liversedge Padel Club (former Adrenaline Trampoline Park), WF15 6JL",
-      "stage": "Archive",
-      "outcome": "Submitted",
-      "quote": 956586.0,
-      "due": null,
-      "client": "Your Hospitality Group (Chris Hayes) via Josh",
-      "url": "https://trello.com/c/tG1RPkj6/22-liversedge-padel-club-former-adrenaline-trampoline-park-wf15-6jl",
       "kind": "archive"
     },
     {
@@ -229,6 +179,16 @@
       "due": null,
       "client": "Petersgarth Management Ltd / Sedgwick CSD",
       "url": "https://trello.com/c/gCSpWxi1/27-13-petersgarth-moorhead-lane-shipley-bd18-4jl",
+      "kind": "archive"
+    },
+    {
+      "name": "142-160 Yorke Drive, Newark NG24 2HL",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 3176.1,
+      "due": null,
+      "client": "Sedgwick International UK - CSD (Chris Peerless)",
+      "url": "https://trello.com/c/6cCgyned/37-142-160-yorke-drive-newark-ng24-2hl",
       "kind": "archive"
     },
     {
@@ -292,6 +252,16 @@
       "kind": "archive"
     },
     {
+      "name": "50 Pigeon Cote Road, Leeds LS14 1EP",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 60038.94,
+      "due": null,
+      "client": "Sedgwick International UK MCL",
+      "url": "https://trello.com/c/3Vz1MovE/30-50-pigeon-cote-road-leeds-ls14-1ep",
+      "kind": "archive"
+    },
+    {
       "name": "54 & 58 Errington Street, Brotton",
       "stage": "Archive",
       "outcome": "Won",
@@ -319,6 +289,16 @@
       "due": null,
       "client": "Sedgwick CSD (Michael Sellors)",
       "url": "https://trello.com/c/2s62MV5p/10-aloft-hotel-1-north-john-street-liverpool",
+      "kind": "archive"
+    },
+    {
+      "name": "Cornwall Spandrel Panel Remediation \u2014 37 properties",
+      "stage": "Archive",
+      "outcome": "Won",
+      "quote": 265257.0,
+      "due": null,
+      "client": "Cornwall Council (Cornwall Housing) \u2014 NHBC cash settlement",
+      "url": "https://trello.com/c/s1jipo0H/17-cornwall-spandrel-panel-remediation-37-properties",
       "kind": "archive"
     },
     {
@@ -392,6 +372,26 @@
       "kind": "archive"
     },
     {
+      "name": "Liversedge Padel Club (former Adrenaline Trampoline Park), WF15 6JL",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 956586.0,
+      "due": null,
+      "client": "Your Hospitality Group (Chris Hayes) via Josh",
+      "url": "https://trello.com/c/tG1RPkj6/22-liversedge-padel-club-former-adrenaline-trampoline-park-wf15-6jl",
+      "kind": "archive"
+    },
+    {
+      "name": "Northwest Tea Service Ltd, Unit 9\u201310 Brickfields, Liverpool",
+      "stage": "Archive",
+      "outcome": "Lost",
+      "quote": 77338.69,
+      "due": null,
+      "client": "Northwest Tea Service Ltd",
+      "url": "https://trello.com/c/XIxcJaAh/29-northwest-tea-service-ltd-unit-9-10-brickfields-liverpool",
+      "kind": "archive"
+    },
+    {
       "name": "Wolham Farm, Spilsby",
       "stage": "Archive",
       "outcome": "Lost",
@@ -452,5 +452,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "27 Aug 2026 13:00 BST"
+  "generated": "28 Aug 2026 09:00 BST"
 }
