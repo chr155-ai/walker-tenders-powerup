@@ -93,11 +93,11 @@
     },
     {
       "name": "Submit tender for impact damage reinstatement works (CSD Ref 10751615) at 42 Bridges Road, Scunthorpe DN17 1NP",
-      "stage": "Inbox",
+      "stage": "Cursor",
       "outcome": "Open",
       "quote": null,
-      "due": "2026-09-04T14:00:00.000Z",
-      "client": "",
+      "due": "2026-09-04T15:00:00.000Z",
+      "client": "Sedgwick",
       "url": "https://trello.com/c/fkWSbAab/50-submit-tender-for-impact-damage-reinstatement-works-csd-ref-10751615-at-42-bridges-road-scunthorpe-dn17-1np",
       "kind": "live"
     },
@@ -462,5 +462,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "28 Aug 2026 17:00 BST"
+  "generated": "28 Aug 2026 19:00 BST"
 }
