@@ -52,6 +52,16 @@
       "kind": "live"
     },
     {
+      "name": "42 Bridges Road, Scunthorpe",
+      "stage": "Josh",
+      "outcome": "Open",
+      "quote": 170863.67,
+      "due": "2026-09-04T15:00:00.000Z",
+      "client": "Sedgwick",
+      "url": "https://trello.com/c/fkWSbAab/50-42-bridges-road-scunthorpe",
+      "kind": "live"
+    },
+    {
       "name": "5 St Annes Close, Bicester",
       "stage": "Submitted",
       "outcome": "Submitted",
@@ -89,16 +99,6 @@
       "due": "2026-08-19T11:00:00.000Z",
       "client": "",
       "url": "https://trello.com/c/aFPp6f9S/5-argyle-parade-oldham",
-      "kind": "live"
-    },
-    {
-      "name": "Submit tender for impact damage reinstatement works (CSD Ref 10751615) at 42 Bridges Road, Scunthorpe DN17 1NP",
-      "stage": "Cursor",
-      "outcome": "Open",
-      "quote": null,
-      "due": "2026-09-04T15:00:00.000Z",
-      "client": "Sedgwick",
-      "url": "https://trello.com/c/fkWSbAab/50-submit-tender-for-impact-damage-reinstatement-works-csd-ref-10751615-at-42-bridges-road-scunthorpe-dn17-1np",
       "kind": "live"
     },
     {
@@ -462,5 +462,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "28 Aug 2026 19:00 BST"
+  "generated": "31 Aug 2026 07:00 BST"
 }
