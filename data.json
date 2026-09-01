@@ -12,6 +12,16 @@
       "kind": "live"
     },
     {
+      "name": "17-31 Kercroft, Milton Keynes",
+      "stage": "Cursor",
+      "outcome": "Open",
+      "quote": null,
+      "due": "2026-09-07T00:00:00.000Z",
+      "client": "Sedgwick",
+      "url": "https://trello.com/c/llThznUl/51-17-31-kercroft-milton-keynes",
+      "kind": "live"
+    },
+    {
       "name": "29 Carroll Street, Market Harborough",
       "stage": "Submitted",
       "outcome": "Submitted",
@@ -462,5 +472,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "31 Aug 2026 07:00 BST"
+  "generated": "1 Sep 2026 09:00 BST"
 }
