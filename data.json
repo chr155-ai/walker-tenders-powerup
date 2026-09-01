@@ -13,10 +13,10 @@
     },
     {
       "name": "17-31 Kercroft, Milton Keynes",
-      "stage": "Cursor",
+      "stage": "Josh",
       "outcome": "Open",
-      "quote": null,
-      "due": "2026-09-07T00:00:00.000Z",
+      "quote": 528082.34,
+      "due": "2026-09-23T11:00:00.000Z",
       "client": "Sedgwick",
       "url": "https://trello.com/c/llThznUl/51-17-31-kercroft-milton-keynes",
       "kind": "live"
@@ -472,5 +472,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "1 Sep 2026 09:00 BST"
+  "generated": "1 Sep 2026 11:00 BST"
 }
