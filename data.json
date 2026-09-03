@@ -23,9 +23,9 @@
     },
     {
       "name": "29 Carroll Street, Market Harborough",
-      "stage": "Submitted",
+      "stage": "Josh",
       "outcome": "Submitted",
-      "quote": 156606.02,
+      "quote": 187506.29,
       "due": "2026-08-28T11:00:00.000Z",
       "client": "",
       "url": "https://trello.com/c/xWZ6ursN/6-29-carroll-street-market-harborough",
@@ -53,9 +53,9 @@
     },
     {
       "name": "37 Westmorland Drive, Bracknell",
-      "stage": "Cursor",
+      "stage": "Josh",
       "outcome": "Submitted",
-      "quote": 136959.53,
+      "quote": 161939.24,
       "due": null,
       "client": "Sedgwick International UK (Alan Sanchez) / PH Annie Clarke",
       "url": "https://trello.com/c/ZadFQH8z/48-37-westmorland-drive-bracknell",
@@ -73,9 +73,9 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Submitted",
+      "stage": "Josh",
       "outcome": "Submitted",
-      "quote": 80353.9,
+      "quote": 87043.79,
       "due": "2026-08-21T10:00:00.000Z",
       "client": "Sedgwick CSD / Alan Sanchez",
       "url": "https://trello.com/c/e5wQ8ejt/3-5-st-annes-close-bicester",
@@ -472,5 +472,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "2 Sep 2026 21:00 BST"
+  "generated": "3 Sep 2026 07:00 BST"
 }
