@@ -23,9 +23,9 @@
     },
     {
       "name": "29 Carroll Street, Market Harborough",
-      "stage": "Josh",
+      "stage": "Submitted",
       "outcome": "Submitted",
-      "quote": 187506.29,
+      "quote": 182844.82,
       "due": "2026-08-28T11:00:00.000Z",
       "client": "",
       "url": "https://trello.com/c/xWZ6ursN/6-29-carroll-street-market-harborough",
@@ -53,7 +53,7 @@
     },
     {
       "name": "37 Westmorland Drive, Bracknell",
-      "stage": "Josh",
+      "stage": "Submitted",
       "outcome": "Submitted",
       "quote": 161729.24,
       "due": null,
@@ -73,7 +73,7 @@
     },
     {
       "name": "5 St Annes Close, Bicester",
-      "stage": "Josh",
+      "stage": "Submitted",
       "outcome": "Submitted",
       "quote": 87043.79,
       "due": "2026-08-21T10:00:00.000Z",
@@ -472,5 +472,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "3 Sep 2026 11:00 BST"
+  "generated": "3 Sep 2026 13:00 BST"
 }
