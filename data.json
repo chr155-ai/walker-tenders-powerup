@@ -43,7 +43,7 @@
     },
     {
       "name": "31 Valley Grove, Barnsley",
-      "stage": "Josh",
+      "stage": "Chris",
       "outcome": "Open",
       "quote": 76734.61,
       "due": "2026-09-08T13:00:00.000Z",
@@ -472,5 +472,5 @@
       "kind": "archive"
     }
   ],
-  "generated": "4 Sep 2026 17:00 BST"
+  "generated": "5 Sep 2026 07:00 BST"
 }
